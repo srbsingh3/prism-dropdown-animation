@@ -1,0 +1,14 @@
+/* div {
+    border: solid red 1px;
+} */
+
+.dropdown-flex-ctnr {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dropdown {
+    margin: auto;
+}
