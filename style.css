@@ -79,15 +79,14 @@ html {
 
 @keyframes slideDown {
     0% {height: 0;}
-    100% {height: 125px;}
+    100% {height: 128px;}
 }
 
 .dropdown-item {
-    animation: appear .3s both .13s;
+    animation: appear .3s both;
 }
 
 @keyframes appear {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {opacity: 0; height: 10px;}
+    100% {opacity: 1; height: 28px;}
 }
-
