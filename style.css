@@ -2,6 +2,49 @@
     border: solid red 1px;
 } */
 
+*,*::before,*::after {
+    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    text-rendering: geometricPrecision;
+    font-family: "ntnxregular";
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    overflow: hidden;
+    background-color: #F2F4F6;
+}
+
+@font-face{
+    font-family: ntnxthin;
+    src: url(./fonts/NutanixSoft-Thin.otf);
+}
+
+@font-face{
+  font-family: ntnxregular;
+  src: url(./fonts/NutanixSoft-Regular.otf);
+}
+
+@font-face{
+  font-family: ntnxsemi-bold;
+  src: url(./fonts/NutanixSoft-Semibold.otf);
+}
+
+@font-face{
+  font-family: ntnxmedium;
+  src: url(./fonts/NutanixSoft-Medium.otf);
+}
+
 .dropdown-flex-ctnr {
     display: flex;
     align-content: center;
@@ -11,4 +54,29 @@
 
 .dropdown {
     margin: auto;
+}
+
+.btn {
+    background-color: white;
+    color: #22272E;
+    border-color: #D5DAE0;
+    padding: 5px 15px 6px 15px;
+    font-family: "ntnxmedium";
+}
+
+.btn:hover, .btn:active, .btn:visited, .btn:focus {
+    background-color: white !important;
+    color: #22A5F7 !important;
+    border-color: #D5DAE0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@keyframes slideIn {
+    0% {height: -10px;}
+    100% {height: 50px;}
+}
+
+.dropdown-menu {
+    animation: slideIn .4s;
 }

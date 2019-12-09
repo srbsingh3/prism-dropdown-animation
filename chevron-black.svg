@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.68933983,2 L1.71966991,0.0303300859 C1.4267767,-0.262563133 1.4267767,-0.737436867 1.71966991,-1.03033009 C2.01256313,-1.3232233 2.48743687,-1.3232233 2.78033009,-1.03033009 L5.28033009,1.46966991 C5.5732233,1.76256313 5.5732233,2.23743687 5.28033009,2.53033009 L2.78033009,5.03033009 C2.48743687,5.3232233 2.01256313,5.3232233 1.71966991,5.03033009 C1.4267767,4.73743687 1.4267767,4.26256313 1.71966991,3.96966991 L3.68933983,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-/-Show-More-/-Secondary" transform="translate(-60.000000, -15.000000)">
+            <g id="Data" transform="translate(15.000000, 11.000000)">
+                <g id="Icon" transform="translate(45.000000, 4.000000)">
+                    <g id="Special-/-Chevron-Down">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero" transform="translate(3.500000, 2.000000) rotate(90.000000) translate(-3.500000, -2.000000) "></g>
+                        <g id="Icon-/-Primary" mask="url(#mask-2)" fill="#22272E" fill-rule="evenodd">
+                            <g id="Color-/-Dark-Grey-1">
+                                <rect id="Color" x="0" y="0" width="7" height="4"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
