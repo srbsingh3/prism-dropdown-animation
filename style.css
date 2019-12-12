@@ -52,6 +52,7 @@ html {
     height: 100vh;
 }
 
+/* Css for Bootstrap Dropdown */
 .dropdown {
     margin: auto;
 }
@@ -90,3 +91,5 @@ html {
     0% {opacity: 0; height: 10px;}
     100% {opacity: 1; height: 28px;}
 }
+
+/* Css for Vanilla Dropdown */
